@@ -13,4 +13,27 @@ The Arduino receives data from a GPS, and certain data is sent to the OLED displ
 - Navigation Mode - displays latitude, longitude, direction, and speed.
 - Run Mode - stopwatch that tracks time elapsed and distance traveled.
 
-The watch contains 3 buttons which are used for changing modes, configuring units, and starting/stopping/resetting the stopwatch (more on that later).
+The watch contains 3 buttons which are used for changing modes, configuring units, and starting/stopping/resetting the stopwatch (more on that later), as well as a switch that opens the circuit and turns the watch off.
+
+## Controls
+Time Mode:
+- Middle button - adjust time zone
+  - Bottom button - move forward 1 hour
+  - Middle button - stop adjusting time zone
+  - Top button - move back 1 hour
+- Top button - next mode
+
+Location Mode:
+- Bottom button - display altitude in other units (ft, m, mi, or km)
+- Middle button - save the current unit as default
+- Top button - next mode
+
+Navigation Mode:
+- Bottom button - display speed in other units (mph, m/s, km/h, or kn)
+- Middle button - save the current unit as default
+- Top button - next mode
+
+Run Mode:
+- Bottom button - start/stop the stopwatch
+- Middle button - reset the stopwatch if stopwatch is paused, otherwise changes units between mi and km
+- Top button - next mode
