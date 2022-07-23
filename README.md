@@ -12,4 +12,5 @@ The Arduino receives data from a GPS, and certain data is sent to the OLED displ
 - Location Mode - displays latitude, longitude, and altitude.
 - Navigation Mode - displays latitude, longitude, direction, and speed.
 - Run Mode - stopwatch that tracks time elapsed and distance traveled.
+
 The watch contains 3 buttons which are used for changing modes, configuring units, and starting/stopping/resetting the stopwatch (more on that later).
