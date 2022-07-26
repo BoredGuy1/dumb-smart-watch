@@ -15,6 +15,20 @@ The Arduino receives data from a GPS, and certain data is sent to the OLED displ
 
 The watch contains 3 buttons which are used for changing modes, configuring units, and starting/stopping/resetting the stopwatch (more on that later), as well as a switch that opens the circuit and turns the watch off.
 
+## Hardware
+Components:
+- 1 Arduino Pro Mini
+- 1 BN-220 GPS module
+- 1 128x64 OLED display
+- 3 1k resistors
+- 1 CR123A battery
+- 1 switch
+- 3 push buttons
+A picture of the schematic has been provided.
+
+## Software
+This watch uses the Arduino programming language. The code can be viewed by clicking on the Arduino file.
+
 ## Controls
 Time Mode:
 - Middle button - adjust time zone
